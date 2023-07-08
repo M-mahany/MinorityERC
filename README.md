@@ -1,4 +1,5 @@
 Website link https://minorityerc.com
+![minorityErc](https://github.com/M-mahany/MinorityERC/assets/106715042/d715dcf7-7146-4391-8cb3-6c859c043c12)
 
 # Getting Started with Create React App
 
