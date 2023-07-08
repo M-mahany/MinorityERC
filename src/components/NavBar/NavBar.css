@@ -1,0 +1,81 @@
+.Nav{
+    align-self: center;
+    height:65px;
+    margin-right:3%;
+    margin-left: 3%;
+    width: 90vw;
+    position: fixed;
+    top:0;
+    display: flex;
+    z-index: 2;
+    border-bottom:1px solid #0693e3;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+.after{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-bottom: none;
+margin: 0px;
+    width: 100vw;
+    transition: all .2s ease-in-out;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+color:whitesmoke
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+.linksDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    text-align: center;
+    flex:1;
+    width: 90px;
+    font-size: 16px;
+   text-decoration: none; 
+   display: block;
+   color: #0693e3;
+}
+.mobileIconDiv{
+    display: none;
+    color: #0693e3;
+    font-size: 30px;
+}
+.linksDivMobile{
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 15px 0px 15px 0px;
+    gap:15px;
+    margin-left: 0px;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media only screen and (max-width: 990px){
+    .linksDiv{
+        display: none;
+    }
+    .logo{
+        font-size: 16px;
+        font-weight: bold;
+    color:whitesmoke
+    }
+    .mobileIconDiv{
+        display: flex;
+    }
+    
+}

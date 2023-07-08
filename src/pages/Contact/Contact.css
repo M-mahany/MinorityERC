@@ -1,0 +1,58 @@
+.Contact{
+    background-image: url("https://www.signpost.com/wp-content/uploads/2021/07/business-associations-scaled-1024x683.jpeg");
+    display: flex;
+    flex-direction: column;
+      background-size: cover;
+}
+.containerC{
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+height: 100%;
+padding: 100px 50px 50px 50px;
+}
+.leftBox{
+    display:flex;
+    justify-content: center;
+    flex: 1;
+}
+.rightBoxC{
+    display:flex;
+    justify-content: center;
+    flex:1;
+}
+.formBox{
+    background-color: white;
+    border-radius: 10px;
+    width:100%;
+    border: 1px solid grey;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 30px 30px 50px 30px;
+}
+.infoBox{
+    gap:15px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    width:100%;
+}
+.box1{
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 990px){
+    .containerC{
+    padding: 100px 20px 50px 20px;
+    }
+    }

@@ -1,0 +1,49 @@
+.mainBoxDivCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+padding: 50px 20px 20px 20px;
+}
+.leftBoxCounter{
+    width: 250px;
+padding: 0px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex: 1.5;
+}
+.counters{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.mainDiv{
+    width:250px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+color: #0693e3;
+font-size: 65px;
+border-bottom: none;
+}
+.imgCounter{
+    height:300px;
+}
+@media only screen and (max-width: 900px){
+    .imgCounter{
+        height: 240px;
+    }
+}
